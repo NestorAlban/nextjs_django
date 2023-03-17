@@ -1,14 +1,12 @@
+'use client'
 import React from 'react';
 // import { useNavigate } from 'react-router-dom';
 import Link from 'next/link';
 // import AppContext from '../context/AppContext';
-import '../styles/Header.css'
+import '../../styles/Header.css'
 
-export function Header ()  {
+export const Header = () => {
 
-  // const navigate = useNavigate()
-  // const homeHandle = () => navigate('/');
-  // const parentHandle = () => navigate('/');
 
   return (
     <nav className="Header">

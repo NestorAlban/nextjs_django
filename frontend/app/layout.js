@@ -1,5 +1,5 @@
-import {Header} from "./components/Header"
-import Layout from "./components/Layout"
+import {Header} from "./components/Header/page"
+import Layout from "./components/Layout/page"
 
 export const metadata = {
   title: 'Next.js',

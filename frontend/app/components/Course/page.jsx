@@ -1,7 +1,7 @@
 import React from 'react';
-import dia_image1 from '../images/dia_image1.png'
-import Dia1 from './placeim/diaiam.png'
-import '../styles/Course.css'
+import dia_image1 from '../../images/dia_image1.png'
+import Dia1 from '../placeim/diaiam.png'
+import '../../styles/Course.css'
 
 
 

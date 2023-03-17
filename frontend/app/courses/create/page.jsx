@@ -1,6 +1,5 @@
 'use client'
 import React from "react"
-import CreateCourse from "@/app/components/CreateCourse"
 
 const Home = () => {
     async function buttonCall(){

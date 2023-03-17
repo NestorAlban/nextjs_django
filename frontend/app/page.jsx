@@ -1,5 +1,5 @@
 import React from "react"
-import Courses from "./components/Courses"
+import Courses from "./components/Courses/page"
 import Link from "next/link"
 
 const Home = () => {

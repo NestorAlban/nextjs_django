@@ -1,7 +1,7 @@
 'use client'
 import React, {useContext, useEffect, useState} from 'react';
-import Course from './Course';
-import '../styles/Courses.css'
+import Course from '../Course/page';
+import '../../styles/Courses.css'
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
