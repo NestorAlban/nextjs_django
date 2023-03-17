@@ -1,0 +1,149 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --cards-background:#f7f1f1;
+    --light-blue-moon: #4a7bbb;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --dragon-red: rgba(167, 5, 5, 0.808);
+    --starling: #bb7d43e3;
+    --pastel: #987d9965;
+    --butterfly-blue: #1EB8EC;
+    --tendy-pink: #925DA3;
+    --cranberry: #D54E8D;
+    --h2f: 30px;
+    --af: 12px;
+    --md: 16px;
+    --mmd: 14px;
+    --lg: 18px;
+    --hn: 50px;
+}
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.inactive {
+    display: none;
+}
+
+/* .Course-item {
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 0% 2%;
+    border: 2px solid var(--dragon-red);
+    width: 25%;
+    height: 225px;
+    min-height: 225px;
+    max-height: 225px;
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 8px;
+} */
+
+.Course-item {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+/* .Course-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+} */
+
+.Course-item_card {
+    border: 2px solid var(--dragon-red);
+    padding: 16px;
+    padding: 0% 2%;
+    text-align: center;
+    background-color: var(--cards-background);
+    
+}
+
+.Course-item_img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+.Course-item_img img {
+
+    /* position: relative; */
+    width: 80%;
+    /* position: absolute;
+    width: 10%; */
+    margin: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.Course-item-info {
+    grid-template-rows: auto auto;
+    align-items: right;
+    align-content: right;
+    padding: 1% 5%;
+}
+
+.Course-item-info .Course-item-info_main{
+    align-self: right;
+    align-content: right;
+}
+
+.Course-item-info .Course-item-info_main p {
+    font-size: 1.0em;
+}
+
+.Course-item-info .Course-item-info_extra{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    align-self: right;
+    align-content: right;
+}
+
+.Course-item-info .Course-item-info_extra p:nth-child(1) {
+    display: flex;
+    text-decoration: none;
+    right: 0;
+    text-align: justify;
+}
+
+.Course-item-info .Course-item-info_extra p:nth-child(2) {
+    text-align: justify;
+}
+
+/* .Course-item-info h2, .Course-item-info h3, .Course-item-info p {
+    font-size: 0.10em;
+} */
+
+@media screen and (max-width: 600px) {
+    .Course-item {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
