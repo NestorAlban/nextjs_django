@@ -1,0 +1,69 @@
+venv/
+env/
+poetry.lock
+extra.txt
+.env
+
+# Backend
+digital_team_prop/**/__pycache__
+digital_team_prop/**/**/__pycache__
+
+#Frontend
+
+frontend/.gitignore
+frontend/README.md
+
+## dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+## testing
+frontend/coverage
+
+## production
+frontend/build
+
+## misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+
+frontend/.next
+
+#Frontend
+
+react-frontend/.gitignore
+react-frontend/README.md
+
+## dependencies
+react-frontend/node_modules/
+react-frontend/.pnp
+react-frontend/.pnp.js
+
+## testing
+react-frontend/coverage
+
+## production
+react-frontend/build
+
+## misc
+react-frontend/.DS_Store
+react-frontend/.env.local
+react-frontend/.env.development.local
+react-frontend/.env.test.local
+react-frontend/.env.production.local
+
+react-frontend/npm-debug.log*
+react-frontend/yarn-debug.log*
+react-frontend/yarn-error.log*
+
+
+react-frontend/.next
